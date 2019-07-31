@@ -96,7 +96,7 @@ export default class TabContent extends Component {
             .catch(console.log)
     }
     paragraph(Source ="win", Target="dows"){
-        fetch("http://127.0.0.1:5000/pr?source_text="+Source+"&target_text="+Target)
+        fetch("http://51.15.126.100:5010/pr?source_text="+Source+"&target_text="+Target)
             .then(res => res.json())
             .then((data)=>{
               this.setState({paragraph:data})  

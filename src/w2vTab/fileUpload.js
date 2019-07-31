@@ -28,7 +28,7 @@ class FileUpload extends React.Component {
     this.setState({file:e.target.files[0]})
   }
   fileUpload(file){
-    const url = 'http://localhost:5000/upload';
+    const url = 'http://51.15.126.100:5010/upload';
     const formData = new FormData();
     formData.append('file',file)
     const config = {

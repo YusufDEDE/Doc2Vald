@@ -32,7 +32,7 @@ class TwoFileUpload extends React.Component {
  
   
   fileUpload(file1){
-    const url = 'http://localhost:5000/twoupload';
+    const url = 'http://51.15.126.100:5010/twoupload';
     const formData = new FormData();
     formData.append("file_one",file1)
     formData.append("file_two",file1)
@@ -49,7 +49,7 @@ class TwoFileUpload extends React.Component {
     return (
         
         <div className="alert alert-success" role="alert">   
-        <form action="http://127.0.0.1:5000/twoupload" method="POST" encType="multipart/form-data">
+        <form action="http://51.15.126.100:5010/twoupload" method="POST" encType="multipart/form-data">
          <center>
              <h5>Source Text File</h5>
              <div className="alert alert-danger"><input type="file" name="file_one" /></div><hr></hr>

@@ -8,7 +8,7 @@ import TwoFileUpload from '../w2vTab/twofileUpload';
 import '../App.css';
 
 
-const API = 'http://127.0.0.1:5000/?word=';
+const API = 'http://51.15.126.100:5010/?word=';
 
 
 export default class TabContent extends Component {
